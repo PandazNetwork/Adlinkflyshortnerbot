@@ -10,7 +10,7 @@ bot = Client('AdlinkFly shortener bot',
              workers=50,
              sleep_threshold=10)
 
-print("Developer: @pandaznetwork , Join & Share Channel")
+print("Developer: @pandazbots, Join & Share Channel")
 print("Bot is Started Now")
 
 @bot.on_message(filters.command('start') & filters.private)
